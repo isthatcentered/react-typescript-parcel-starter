@@ -1,10 +1,12 @@
 {
-  "name": "kanban",
+  "name": "some-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll",
+    "build": "parcel build ./src/index.html",
+    "deploy": "yarn build && surge ./dist some-project.surge.sh"
   },
   "keywords": [],
   "author": "Edouard Penin <e.peninb@gmail.com>",
