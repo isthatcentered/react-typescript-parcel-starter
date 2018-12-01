@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --watchAll",
     "build": "parcel build ./src/index.html",
-    "deploy": "yarn build && surge ./dist some-project.surge.sh"
+    "deploy": "yarn build && surge ./dist some-project.surge.sh && open http://some-project.surge.sh"
   },
   "keywords": [],
   "author": "Edouard Penin <e.peninb@gmail.com>",
