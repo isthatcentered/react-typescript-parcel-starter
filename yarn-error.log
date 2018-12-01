@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/local/bin/node /Users/isthatcentered2/.yarn/bin/yarn.js add parcel-bundler react jest ts-jest @types/jest @types/react react-dom @types/react-dom typescript enzymee enzyme-adapter-react-16 @types/enzyme -D
+
+PATH: 
+  /Users/isthatcentered2/.rvm/gems/ruby-2.3.3/bin:/Users/isthatcentered2/.rvm/gems/ruby-2.3.3@global/bin:/Users/isthatcentered2/.rvm/rubies/ruby-2.3.3/bin:/Users/isthatcentered2/.yarn/bin:/Users/isthatcentered2/.config/yarn/global/node_modules/.bin:/Users/isthatcentered2/.composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin:/opt/X11/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/isthatcentered2/.rvm/bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/enzymee: Not found
+      at Request.params.callback [as _callback] (/Users/isthatcentered2/.yarn/lib/cli.js:65894:18)
+      at Request.self.callback (/Users/isthatcentered2/.yarn/lib/cli.js:129018:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/Users/isthatcentered2/.yarn/lib/cli.js:129990:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/Users/isthatcentered2/.yarn/lib/cli.js:129912:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1081:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "kanban",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Edouard Penin <e.peninb@gmail.com>",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
