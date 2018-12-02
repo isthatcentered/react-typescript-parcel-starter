@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll",
+    "start": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html",
     "deploy": "yarn build && surge ./dist some-project.surge.sh && open http://some-project.surge.sh"
   },
